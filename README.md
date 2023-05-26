@@ -47,3 +47,7 @@ Output	: sang gajah - sang gajah - serigala - serigala - harimau
 
 - Run the code
 - Type the input (must be an odd number)
+
+============================================
+
+Screenshot hasil test website dan test logic ada di file image
