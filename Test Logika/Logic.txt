@@ -1,0 +1,84 @@
+1. 
+---
+n = int(input("Panjang: "))
+lis = []
+i=1
+# print(len(list))
+
+while len(lis)+1 <= n:
+    if i % 3 == 0 and i % 7 == 0:
+        lis.append("Z")
+    elif i % 3 == 0 or i % 7 == 0:
+        lis.append(i)
+    i += 1
+
+print(lis)
+====================================
+2.
+---
+import re
+
+kalimat = input("Kalimat: ")
+pemisah = input("Pemisah dua kalimat (agar dua kalimat menjadi 1 string): ")
+
+kecil = kalimat.lower()
+clear = kecil.replace(".", "")
+print(clear)
+print(" ")
+clear_split = re.split(fr"(?<!{pemisah})\s", clear)
+
+print(clear_split)
+print(" ")
+
+target = []
+banyak = int(input("Banyak kata yang ingin dicari: "))
+for i in range (0, banyak):
+    key = input("keyword= ")
+    target.append(key)
+
+hasil = []
+
+for a in clear_split:
+    if a in target:
+        hasil.append(a)
+        
+print(hasil)
+print(" - ".join(hasil))
+====================================
+3.
+---
+while True:
+    a = input("Masukan password: ")
+    if len(a) < 8:
+        print("Kata sandi minimal 8 karakter")
+    elif len(a) > 32:
+        print("Kata sandi maksimal 32 karakter")
+    elif a[0].isdigit():
+        print("Karakter awal tidak boleh angka")
+    elif not any (i.isdigit() for i in a):
+        print("Harus memiliki angka")
+    elif not any (i.islower() for i in a):
+        print("Harus memiliki huruf kapital dan huruf kecil")
+    elif not any (i.isupper() for i in a):
+        print("Harus memiliki huruf kapital dan huruf kecil")
+    else:
+        print("Kata sandi valid")
+        break
+========================
+4.
+---
+# num = [5, 2, 8, 4, 3, 10]
+nilai = []
+banyak = int(input("Banyak angka: "))
+for i in range (0, banyak):
+    a = int(input("Angka: "))
+    nilai.append(a)
+
+urut = sorted(nilai, reverse=False)
+print(urut)
+
+for i in range (0,len(urut)):
+    if urut[i] + 1 != urut[i+1]:
+        print(urut[i] + 1)
+        break
+========================
