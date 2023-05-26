@@ -18,14 +18,14 @@ const [image, back, crop] = [
   
   back.addEventListener('click', () => {
     localStorage.removeItem('url')
-    window.location.href = 'changephoto.html'
+    window.location.href = 'profile.html'
   })
   
   crop.addEventListener('click', () => {
     const croppedImage = cropper.getCroppedCanvas().toDataURL('image/png')
     localStorage.setItem('url', croppedImage)
     setTimeout(() => {
-      window.location.href = 'changephoto.html'
+      window.location.href = 'profile.html'
     }, 500)
   })
   
