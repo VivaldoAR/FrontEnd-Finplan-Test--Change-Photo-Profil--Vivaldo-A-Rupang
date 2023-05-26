@@ -50,4 +50,5 @@ Output	: sang gajah - sang gajah - serigala - serigala - harimau
 
 ============================================
 
-Screenshot hasil test website dan test logic ada di file image
+Screenshot hasil test website dan test logic ada di folder image
+Query history ada di file query.txt
