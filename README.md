@@ -1,9 +1,9 @@
 !!README!!
 
-Vivaldo Ananta Rupang
+Vivaldo Ananta Rupang </br>
 vivaldord@gmail.com
 
-How To Run The Website?
+<b>How To Run The Website?</b>
 - First click the "Code" button on git
 - Click download Zip
 - Extract the file
@@ -50,5 +50,5 @@ Output	: sang gajah - sang gajah - serigala - serigala - harimau
 
 ============================================
 
-Screenshot hasil test website dan test logic ada di folder image
+Screenshot hasil test website dan test logic ada di folder image </br>
 Query history ada di file query.txt
