@@ -1,0 +1,13 @@
+History Query Search
+
+1. Javascript untuk open file di directory kita
+2. Cropper js
+3. cara convert gambar svg ke text
+4. list function javascript
+5. mengatur background di js
+6. atur margin jadi mobile view
+7. process function di javascript
+8. add class in js
+9. Open camera for website
+10. Python list function
+11. make a pattern in python
