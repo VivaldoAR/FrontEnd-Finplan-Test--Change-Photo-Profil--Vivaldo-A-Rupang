@@ -1,4 +1,4 @@
-!!README!!
+<b>!!README!!</b>
 
 Vivaldo Ananta Rupang </br>
 vivaldord@gmail.com
@@ -11,7 +11,7 @@ vivaldord@gmail.com
 - Open the profile.html firstly
 - Well Done, the website is managed to open
 
-How To Run The Logic Test?
+<b>How To Run The Logic Test?</b>
 1. Buat fungsi dengan menampilkan bilangan cacah kelipatan 3 atau 7 sebanyak N, serta menampilkan huruf Z saat bilangan tersebut kelipatan 3 dan 7.
 
 - Run the code
